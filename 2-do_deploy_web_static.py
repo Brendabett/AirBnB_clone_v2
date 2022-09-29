@@ -6,7 +6,7 @@ import shlex
 import os
 
 
-env.hosts = [34.231.147.175, 3.236.254.207]
+env.hosts = ['34.204.167.223', '3.234.242.109']
 env.user = "ubuntu"
 
 
@@ -15,11 +15,11 @@ def do_deploy(archive_path):
     if not os.path.exists(archive_path):
         return False
     try:
-        name = archive_path.replace(/,  )
+        name = archive_path.replace('/', ' ')
         name = shlex.split(name)
         name = name[-1]
 
-        wname = name.replace(.,  )
+        wname = name.replace('.', ' ')
         wname = shlex.split(wname)
         wname = wname[0]
 
