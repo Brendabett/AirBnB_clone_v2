@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env bash
 """Starts a flask web app"""
 
 from flask import Flask
